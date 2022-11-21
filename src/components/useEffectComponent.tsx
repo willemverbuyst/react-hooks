@@ -5,7 +5,7 @@ export default function UseEffectComponent() {
   const [num, setNum] = useState<number>(0);
 
   useEffect(() => {
-    const timer = setInterval(() => setNum((prev) => prev + 1), 1000);
+    const timer = setInterval(() => setNum((prev) => prev + 1), 3000);
     return () => clearInterval(timer);
   }, []);
 
