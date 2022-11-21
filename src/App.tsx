@@ -1,5 +1,11 @@
+import UseStateComponent from './components/UseStateComponent';
+
 function App() {
-  return <div>Hello world</div>;
+  return (
+    <div>
+      <UseStateComponent />
+    </div>
+  );
 }
 
 export default App;
