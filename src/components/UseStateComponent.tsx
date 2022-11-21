@@ -1,3 +1,5 @@
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 import { useState } from 'react';
 
 export default function UseStateComponent() {
@@ -8,10 +10,14 @@ export default function UseStateComponent() {
   console.log('UseStateComponent is rendered');
 
   return (
-    <div>
-      <h1>UseState</h1>
-      <p>numArr: {JSON.stringify(numArr)}</p>
-      <button onClick={handleClick}>Add Number</button>
-    </div>
+    <Card style={{ width: '18rem' }}>
+      <Card.Body>
+        <Card.Title>UseState</Card.Title>
+        <Card.Text>numArr: {JSON.stringify(numArr)}</Card.Text>
+        <Button variant="primary" onClick={handleClick}>
+          Add Number
+        </Button>
+      </Card.Body>
+    </Card>
   );
 }

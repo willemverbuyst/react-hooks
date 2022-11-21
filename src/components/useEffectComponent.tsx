@@ -1,3 +1,4 @@
+import Card from 'react-bootstrap/Card';
 import { useEffect, useState } from 'react';
 
 export default function UseEffectComponent() {
@@ -11,9 +12,11 @@ export default function UseEffectComponent() {
   console.log('UseEffectComponent is rendered');
 
   return (
-    <div>
-      <h1>UseEffect</h1>
-      <p>{num}</p>
-    </div>
+    <Card style={{ width: '18rem' }}>
+      <Card.Body>
+        <Card.Title>UseEffect</Card.Title>
+        <Card.Text>{num}</Card.Text>
+      </Card.Body>
+    </Card>
   );
 }
