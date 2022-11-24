@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col';
 import UseEffectComponent from './components/useEffectComponent';
 import UseStateComponent from './components/UseStateComponent';
 import UseContextComponent from './components/useContextComponent';
+import UseReducerComponent from './components/useReducerComponent';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
         </Col>
         <Col>
           <UseContextComponent />
+        </Col>
+        <Col>
+          <UseReducerComponent />
         </Col>
       </Row>
     </Container>

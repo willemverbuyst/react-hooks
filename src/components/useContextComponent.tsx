@@ -36,7 +36,6 @@ function UseContextComponent() {
     <UserContext.Provider value={user}>
       <Card style={{ width: '18rem' }}>
         <Card.Body>
-          <Card.Title>UseContext</Card.Title>
           <ConsumerComponent />
           <Button variant="primary" onClick={handleClick}>
             Update context
