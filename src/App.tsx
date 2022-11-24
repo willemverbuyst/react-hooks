@@ -5,6 +5,7 @@ import UseEffectComponent from './components/useEffectComponent';
 import UseStateComponent from './components/UseStateComponent';
 import UseContextComponent from './components/useContextComponent';
 import UseReducerComponent from './components/useReducerComponent';
+import UseRefComponent from './components/useRef';
 
 function App() {
   return (
@@ -21,6 +22,11 @@ function App() {
         </Col>
         <Col>
           <UseReducerComponent />
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <UseRefComponent />
         </Col>
       </Row>
     </Container>
