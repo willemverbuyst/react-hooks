@@ -6,11 +6,12 @@ import UseStateComponent from './components/UseStateComponent';
 import UseContextComponent from './components/useContextComponent';
 import UseReducerComponent from './components/useReducerComponent';
 import UseRefComponent from './components/useRef';
+import UseEffectWithCleanUpComponent from './components/useEffectWithCleanUpComponent';
 
 function App() {
   return (
     <Container>
-      <Row>
+      <Row className="m-3">
         <Col>
           <UseStateComponent />
         </Col>
@@ -24,9 +25,13 @@ function App() {
           <UseReducerComponent />
         </Col>
       </Row>
-      <Row>
+
+      <Row className="m-3">
         <Col>
           <UseRefComponent />
+        </Col>
+        <Col>
+          <UseEffectWithCleanUpComponent />
         </Col>
       </Row>
     </Container>
