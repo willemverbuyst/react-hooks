@@ -7,6 +7,7 @@ import UseContextComponent from './components/useContextComponent';
 import UseReducerComponent from './components/useReducerComponent';
 import UseRefComponent from './components/useRef';
 import UseEffectWithCleanUpComponent from './components/useEffectWithCleanUpComponent';
+import UseMemoComponent from './components/useMemo';
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
         </Col>
         <Col>
           <UseEffectWithCleanUpComponent />
+        </Col>
+        <Col>
+          <UseMemoComponent />
         </Col>
       </Row>
     </Container>
