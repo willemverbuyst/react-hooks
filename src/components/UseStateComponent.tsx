@@ -15,7 +15,7 @@ export default function UseStateComponent() {
         <Card.Title>UseState</Card.Title>
         <Card.Text>numArr: {JSON.stringify(numArr)}</Card.Text>
         <Button variant="primary" onClick={handleClick}>
-          Add Number
+          add number
         </Button>
       </Card.Body>
     </Card>

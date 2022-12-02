@@ -38,7 +38,7 @@ function UseContextComponent() {
         <Card.Body>
           <ConsumerComponent />
           <Button variant="primary" onClick={handleClick}>
-            Update context
+            update context
           </Button>
         </Card.Body>
       </Card>
