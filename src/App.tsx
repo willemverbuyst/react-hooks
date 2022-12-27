@@ -8,6 +8,7 @@ import UseReducerComponent from './components/useReducerComponent';
 import UseRefComponent from './components/useRefComponent';
 import UseEffectWithCleanUpComponent from './components/useEffectWithCleanUpComponent';
 import UseMemoComponent from './components/useMemoComponent';
+import UseLayoutEffectComponent from './components/useLayoutEffectComponent';
 
 function App() {
   return (
@@ -36,6 +37,9 @@ function App() {
         </Col>
         <Col>
           <UseMemoComponent />
+        </Col>
+        <Col>
+          <UseLayoutEffectComponent />
         </Col>
       </Row>
     </Container>
