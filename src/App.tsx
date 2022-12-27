@@ -1,14 +1,14 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import UseEffectComponent from './components/useEffectComponent';
-import UseStateComponent from './components/UseStateComponent';
 import UseContextComponent from './components/useContextComponent';
+import UseEffectComponent from './components/useEffectComponent';
+import UseEffectWithCleanUpComponent from './components/useEffectWithCleanUpComponent';
+import UseLayoutEffectComponent from './components/useLayoutEffectComponent';
+import UseMemoComponent from './components/useMemoComponent';
 import UseReducerComponent from './components/useReducerComponent';
 import UseRefComponent from './components/useRefComponent';
-import UseEffectWithCleanUpComponent from './components/useEffectWithCleanUpComponent';
-import UseMemoComponent from './components/useMemoComponent';
-import UseLayoutEffectComponent from './components/useLayoutEffectComponent';
+import UseStateComponent from './components/useStateComponent';
 
 function App() {
   return (
