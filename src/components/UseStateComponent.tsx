@@ -4,8 +4,12 @@ import { useState } from 'react';
 
 export default function UseStateComponent() {
   const [numArr, setNumArr] = useState<number[]>([]);
+  const [num, setNum] = useState<number | null>();
 
-  const handleClick = () => setNumArr([...numArr, numArr.length + 1]);
+  const handleClick = () => {
+    setNumArr([...numArr, numArr.length + 1]);
+    setNum((prev) => (prev ? prev + 1 : 1));
+  };
 
   console.log('UseStateComponent is rendered');
 
@@ -14,6 +18,7 @@ export default function UseStateComponent() {
       <Card.Body>
         <Card.Title>UseState</Card.Title>
         <Card.Text>numArr: {JSON.stringify(numArr)}</Card.Text>
+        <Card.Text>{num}</Card.Text>
         <Button variant="primary" onClick={handleClick}>
           add number
         </Button>

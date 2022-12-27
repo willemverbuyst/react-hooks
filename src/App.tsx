@@ -5,9 +5,9 @@ import UseEffectComponent from './components/useEffectComponent';
 import UseStateComponent from './components/UseStateComponent';
 import UseContextComponent from './components/useContextComponent';
 import UseReducerComponent from './components/useReducerComponent';
-import UseRefComponent from './components/useRef';
+import UseRefComponent from './components/useRefComponent';
 import UseEffectWithCleanUpComponent from './components/useEffectWithCleanUpComponent';
-import UseMemoComponent from './components/useMemo';
+import UseMemoComponent from './components/useMemoComponent';
 
 function App() {
   return (
